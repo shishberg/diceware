@@ -7,8 +7,8 @@ def main():
         assert(len(words) == 6 ** 4)
     word = iter(words)
     
-    print(r"\documentclass[a4paper,10pt,]{article}")
-    print(r"\usepackage[lmargin=3cm]{geometry}")
+    print(r"\documentclass[a4paper,10pt]{article}")
+    print(r"\usepackage[lmargin=3cm,tmargin=5cm]{geometry}")
     print(r"\pagestyle{empty}")
     print(r"\begin{document}")
     print(r"\begin{flushleft}")
